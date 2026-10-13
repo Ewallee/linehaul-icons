@@ -1,0 +1,148 @@
+/* Linehaul Icons — шрифт иконок. ISC License, © 2026 Ewallee. */
+@font-face {
+  font-family: "Linehaul Icons";
+  src: url("LinehaulIcons.woff2") format("woff2"), url("LinehaulIcons.woff") format("woff"), url("LinehaulIcons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.lhi {
+  display: inline-block;
+  font-family: "Linehaul Icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lhi-arrow-down::before { content: "\e001"; }
+.lhi-arrow-left::before { content: "\e002"; }
+.lhi-arrow-right::before { content: "\e003"; }
+.lhi-arrow-up::before { content: "\e004"; }
+.lhi-chevron-down::before { content: "\e00a"; }
+.lhi-chevron-left::before { content: "\e00b"; }
+.lhi-chevron-right::before { content: "\e00c"; }
+.lhi-chevron-up::before { content: "\e00d"; }
+.lhi-drag-handle::before { content: "\e05c"; }
+.lhi-exit-fullscreen::before { content: "\e06f"; }
+.lhi-external-link::before { content: "\e018"; }
+.lhi-fullscreen::before { content: "\e070"; }
+.lhi-home::before { content: "\e020"; }
+.lhi-log-in::before { content: "\e062"; }
+.lhi-log-out::before { content: "\e02d"; }
+.lhi-menu::before { content: "\e02f"; }
+.lhi-more-horizontal::before { content: "\e033"; }
+.lhi-more-vertical::before { content: "\e034"; }
+.lhi-sidebar::before { content: "\e045"; }
+.lhi-switch::before { content: "\e067"; }
+.lhi-attachment::before { content: "\e059"; }
+.lhi-check::before { content: "\e008"; }
+.lhi-close::before { content: "\e010"; }
+.lhi-copy::before { content: "\e012"; }
+.lhi-download::before { content: "\e016"; }
+.lhi-edit::before { content: "\e017"; }
+.lhi-filter::before { content: "\e01b"; }
+.lhi-link::before { content: "\e029"; }
+.lhi-minus::before { content: "\e031"; }
+.lhi-pin::before { content: "\e072"; }
+.lhi-plus::before { content: "\e039"; }
+.lhi-print::before { content: "\e03a"; }
+.lhi-redo::before { content: "\e064"; }
+.lhi-refresh::before { content: "\e03b"; }
+.lhi-save::before { content: "\e03e"; }
+.lhi-search::before { content: "\e040"; }
+.lhi-send::before { content: "\e042"; }
+.lhi-share::before { content: "\e044"; }
+.lhi-sort::before { content: "\e046"; }
+.lhi-trash::before { content: "\e04d"; }
+.lhi-undo::before { content: "\e069"; }
+.lhi-upload::before { content: "\e04f"; }
+.lhi-zoom-in::before { content: "\e076"; }
+.lhi-zoom-out::before { content: "\e077"; }
+.lhi-access::before { content: "\e058"; }
+.lhi-bell::before { content: "\e005"; }
+.lhi-bell-off::before { content: "\e05a"; }
+.lhi-check-circle::before { content: "\e009"; }
+.lhi-eye::before { content: "\e019"; }
+.lhi-eye-off::before { content: "\e05d"; }
+.lhi-help::before { content: "\e01e"; }
+.lhi-info::before { content: "\e022"; }
+.lhi-key::before { content: "\e060"; }
+.lhi-lock::before { content: "\e02c"; }
+.lhi-star::before { content: "\e047"; }
+.lhi-warning::before { content: "\e054"; }
+.lhi-x-circle::before { content: "\e057"; }
+.lhi-archive::before { content: "\e000"; }
+.lhi-book::before { content: "\e006"; }
+.lhi-camera::before { content: "\e079"; }
+.lhi-clipboard::before { content: "\e00e"; }
+.lhi-columns::before { content: "\e06e"; }
+.lhi-contract::before { content: "\e07a"; }
+.lhi-diagram::before { content: "\e014"; }
+.lhi-file::before { content: "\e01a"; }
+.lhi-image::before { content: "\e07d"; }
+.lhi-inbox::before { content: "\e021"; }
+.lhi-kanban::before { content: "\e023"; }
+.lhi-layers::before { content: "\e027"; }
+.lhi-layout-grid::before { content: "\e028"; }
+.lhi-list::before { content: "\e02a"; }
+.lhi-stamp::before { content: "\e081"; }
+.lhi-table::before { content: "\e049"; }
+.lhi-tag::before { content: "\e068"; }
+.lhi-checkbox::before { content: "\e06d"; }
+.lhi-number::before { content: "\e071"; }
+.lhi-select::before { content: "\e073"; }
+.lhi-text-field::before { content: "\e074"; }
+.lhi-toggle::before { content: "\e075"; }
+.lhi-bar-chart::before { content: "\e078"; }
+.lhi-line-chart::before { content: "\e07e"; }
+.lhi-pie-chart::before { content: "\e080"; }
+.lhi-calendar::before { content: "\e007"; }
+.lhi-clock::before { content: "\e00f"; }
+.lhi-deadline::before { content: "\e013"; }
+.lhi-history::before { content: "\e01f"; }
+.lhi-invoice::before { content: "\e05f"; }
+.lhi-ruble::before { content: "\e065"; }
+.lhi-wallet::before { content: "\e06c"; }
+.lhi-building::before { content: "\e05b"; }
+.lhi-mail::before { content: "\e02e"; }
+.lhi-message::before { content: "\e030"; }
+.lhi-phone::before { content: "\e038"; }
+.lhi-user::before { content: "\e050"; }
+.lhi-user-plus::before { content: "\e06b"; }
+.lhi-users::before { content: "\e051"; }
+.lhi-keyboard::before { content: "\e026"; }
+.lhi-moon::before { content: "\e032"; }
+.lhi-palette::before { content: "\e035"; }
+.lhi-settings::before { content: "\e043"; }
+.lhi-sun::before { content: "\e048"; }
+.lhi-forklift::before { content: "\e01c"; }
+.lhi-fuel::before { content: "\e07c"; }
+.lhi-odometer::before { content: "\e07f"; }
+.lhi-refrigerated-truck::before { content: "\e03c"; }
+.lhi-steering-wheel::before { content: "\e066"; }
+.lhi-trailer::before { content: "\e04c"; }
+.lhi-truck::before { content: "\e04e"; }
+.lhi-van::before { content: "\e052"; }
+.lhi-container::before { content: "\e011"; }
+.lhi-damaged-cargo::before { content: "\e07b"; }
+.lhi-loading::before { content: "\e061"; }
+.lhi-pallet::before { content: "\e036"; }
+.lhi-parcel::before { content: "\e037"; }
+.lhi-scan::before { content: "\e03f"; }
+.lhi-security-seal::before { content: "\e041"; }
+.lhi-unloading::before { content: "\e06a"; }
+.lhi-warehouse::before { content: "\e053"; }
+.lhi-waybill::before { content: "\e055"; }
+.lhi-weighing-scale::before { content: "\e056"; }
+.lhi-flag::before { content: "\e05e"; }
+.lhi-location::before { content: "\e02b"; }
+.lhi-map::before { content: "\e063"; }
+.lhi-route::before { content: "\e03d"; }
+.lhi-do-not-stack::before { content: "\e015"; }
+.lhi-fragile::before { content: "\e01d"; }
+.lhi-keep-dry::before { content: "\e024"; }
+.lhi-keep-from-heat::before { content: "\e025"; }
+.lhi-temperature-limits::before { content: "\e04a"; }
+.lhi-this-way-up::before { content: "\e04b"; }
